@@ -14,14 +14,14 @@ namespace Day112DArrays
         {
             var result = new Dictionary<int[], int>(16);
 
-            for (int i = 0; i < arrayOfInts.Length-3; i++)
+            for (int i = 0; i < arrayOfInts.Length - 2; i++)
             {
-                for (int j = 0; j < arrayOfInts.Length-3; j++) 
+                for (int j = 0; j < arrayOfInts.Length - 2; j++)
                 {
                     //var upperRow = new[] {arrayOfInts[i][j], arrayOfInts[i][j + 1], arrayOfInts[i][j + 2]};
-                    //var middleNumber = arrayOfInts[i + 1][ j + 1];
-                    //var lowerRow = new[] {arrayOfInts[i + 2][j], arrayOfInts[i][j + 2], arrayOfInts[i + 2][j + 2]};
-                    var tempArray = new[] {arrayOfInts[i][j], arrayOfInts[i][j+1], arrayOfInts[i][j+2], arrayOfInts[i+1][j+1], arrayOfInts[i+2][j], arrayOfInts[i+2][j+1], arrayOfInts[i+2][j+2]};
+                    //var middleNumber = arrayOfInts[i + 1][j + 1];
+                    //var lowerRow = new[] {arrayOfInts[i + 2][j], arrayOfInts[i + 2][j + 1], arrayOfInts[i + 2][j + 2]};
+                    var tempArray = new[] { arrayOfInts[i][j], arrayOfInts[i][j + 1], arrayOfInts[i][j + 2], arrayOfInts[i + 1][j + 1], arrayOfInts[i + 2][j], arrayOfInts[i + 2][j + 1], arrayOfInts[i + 2][j + 2] };
                     var hourGlassSum = 0;
                     foreach (var number in tempArray)
                     {
@@ -29,10 +29,11 @@ namespace Day112DArrays
                     }
 
                     result.Add(tempArray, hourGlassSum);
-                }
-                
-            }
 
+                }
+
+
+            }
             return result;
         }
     }

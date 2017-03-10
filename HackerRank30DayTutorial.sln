@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1DataTypes", "Day1DataTypes\Day1DataTypes.csproj", "{E76FFD17-2970-43C6-B2EE-925785BB38ED}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day13AbstractClasses", "..\..\Day13AbstractClasses\Day13AbstractClasses\Day13AbstractClasses.csproj", "{34C3E438-2AC6-4D10-98A8-166BAF49729B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day14Scope", "..\..\Day14Scope\Day14Scope\Day14Scope.csproj", "{37C5159E-B347-4224-870C-937E78CBE73F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day15LinkedList", "Day15LinkedList\Day15LinkedList.csproj", "{0E30C818-9CCC-457C-BAFA-E7A3C43B43EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{37C5159E-B347-4224-870C-937E78CBE73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37C5159E-B347-4224-870C-937E78CBE73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37C5159E-B347-4224-870C-937E78CBE73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E30C818-9CCC-457C-BAFA-E7A3C43B43EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E30C818-9CCC-457C-BAFA-E7A3C43B43EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E30C818-9CCC-457C-BAFA-E7A3C43B43EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E30C818-9CCC-457C-BAFA-E7A3C43B43EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

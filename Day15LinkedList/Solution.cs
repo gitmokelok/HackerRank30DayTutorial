@@ -11,11 +11,27 @@ namespace Day15LinkedList
         public static Node insert(Node head, int data)
         {
             //Complete this method
-            Node currentNode = head;
-            while (currentNode.next == null)
-                currentNode = currentNode.next;
-            currentNode.data = data;
-            return currentNode;
+            Node node = new Node(data);
+            if (head == null)
+            {
+                return node;
+            }
+            else if (head.next == null)
+            {
+                head.next = node;
+                return head;
+            }
+            else
+            {
+                var currentNode = head;
+                while (currentNode.next != null)
+                    currentNode = currentNode.next;
+
+                currentNode.next = node;
+                    
+                return head;
+            }
+
 
         }
         public static void display(Node head)

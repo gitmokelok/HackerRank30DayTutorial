@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day14Scope", "..\..\Day14Sc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day15LinkedList", "Day15LinkedList\Day15LinkedList.csproj", "{0E30C818-9CCC-457C-BAFA-E7A3C43B43EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day16 Exceptions Handling", "Day16 Exceptions Handling\Day16 Exceptions Handling.csproj", "{D4D7FE9C-6871-4669-B3CF-D5CCBDDEAD4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{0E30C818-9CCC-457C-BAFA-E7A3C43B43EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E30C818-9CCC-457C-BAFA-E7A3C43B43EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E30C818-9CCC-457C-BAFA-E7A3C43B43EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D7FE9C-6871-4669-B3CF-D5CCBDDEAD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D7FE9C-6871-4669-B3CF-D5CCBDDEAD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D7FE9C-6871-4669-B3CF-D5CCBDDEAD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D7FE9C-6871-4669-B3CF-D5CCBDDEAD4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

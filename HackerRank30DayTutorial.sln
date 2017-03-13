@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20BubbleSort", "Day20Bub
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20BubbleSortTests", "Day20BubbleSortTests\Day20BubbleSortTests.csproj", "{6D59F4A8-0462-43FD-9019-F9B08C2679AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day21Generics", "Day21Generics\Day21Generics.csproj", "{00997952-4DBF-4505-A2D1-E09FD2E38D25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{6D59F4A8-0462-43FD-9019-F9B08C2679AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D59F4A8-0462-43FD-9019-F9B08C2679AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D59F4A8-0462-43FD-9019-F9B08C2679AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00997952-4DBF-4505-A2D1-E09FD2E38D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00997952-4DBF-4505-A2D1-E09FD2E38D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00997952-4DBF-4505-A2D1-E09FD2E38D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00997952-4DBF-4505-A2D1-E09FD2E38D25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

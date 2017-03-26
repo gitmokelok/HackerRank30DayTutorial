@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day21Generics", "Day21Gener
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day22BinaryTree", "Day22BinaryTree\Day22BinaryTree.csproj", "{6371A326-5DE3-48DF-B880-1E1AC5B9ADB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day23BSTLevelOrder", "Day23BSTLevelOrder\Day23BSTLevelOrder.csproj", "{5604FCA6-A21B-4703-8529-05773964AF3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day23BSTLevelOrderTests", "Day23BSTLevelOrderTests\Day23BSTLevelOrderTests.csproj", "{378B27C6-B247-47F8-BA86-9A8C13BC279F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,14 @@ Global
 		{6371A326-5DE3-48DF-B880-1E1AC5B9ADB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6371A326-5DE3-48DF-B880-1E1AC5B9ADB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6371A326-5DE3-48DF-B880-1E1AC5B9ADB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5604FCA6-A21B-4703-8529-05773964AF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5604FCA6-A21B-4703-8529-05773964AF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5604FCA6-A21B-4703-8529-05773964AF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5604FCA6-A21B-4703-8529-05773964AF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378B27C6-B247-47F8-BA86-9A8C13BC279F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378B27C6-B247-47F8-BA86-9A8C13BC279F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378B27C6-B247-47F8-BA86-9A8C13BC279F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378B27C6-B247-47F8-BA86-9A8C13BC279F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

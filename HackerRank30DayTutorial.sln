@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day24RemoveDuplicates", "Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day24RemoveDuplicatesTests", "Day24RemoveDuplicatesTests\Day24RemoveDuplicatesTests.csproj", "{462742F6-AD5D-4FC5-9CB5-CBBBE09F1F71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day25PrimeNumbers", "Day25PrimeNumbers\Day25PrimeNumbers.csproj", "{E2AE65F3-9C16-4F8B-B344-3ABDDD2330E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day25PrimeNumberCheckerTests", "Day25PrimeNumberCheckerTests\Day25PrimeNumberCheckerTests.csproj", "{04608B42-2760-4C9D-9303-79F7B2C2A315}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,14 @@ Global
 		{462742F6-AD5D-4FC5-9CB5-CBBBE09F1F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{462742F6-AD5D-4FC5-9CB5-CBBBE09F1F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{462742F6-AD5D-4FC5-9CB5-CBBBE09F1F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2AE65F3-9C16-4F8B-B344-3ABDDD2330E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AE65F3-9C16-4F8B-B344-3ABDDD2330E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AE65F3-9C16-4F8B-B344-3ABDDD2330E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2AE65F3-9C16-4F8B-B344-3ABDDD2330E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04608B42-2760-4C9D-9303-79F7B2C2A315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04608B42-2760-4C9D-9303-79F7B2C2A315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04608B42-2760-4C9D-9303-79F7B2C2A315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04608B42-2760-4C9D-9303-79F7B2C2A315}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

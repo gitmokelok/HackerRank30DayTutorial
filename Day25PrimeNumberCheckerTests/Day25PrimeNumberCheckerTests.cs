@@ -18,7 +18,7 @@ namespace Day25PrimeNumberCheckerTests
         [TestMethod]
         public void PrimeNumberChecker_IsPrime_One()
         {
-            Assert.IsTrue(PrimeNumberChecker.IsPrime(1));
+            Assert.IsFalse(PrimeNumberChecker.IsPrime(1));
         }
 
         [TestMethod]

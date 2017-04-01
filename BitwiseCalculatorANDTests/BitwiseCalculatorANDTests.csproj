@@ -55,9 +55,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Day29BitwiseAND\Day29BitwiseAND.csproj">
-      <Project>{D11048FA-DC54-4899-B969-A5856A1BE309}</Project>
-      <Name>Day29BitwiseAND</Name>
+    <ProjectReference Include="..\Day29BitwiseAndCalculator\Day29BitwiseAndCalculator.csproj">
+      <Project>{2B05AE7E-0BAF-498B-9D95-8A2ABC94104C}</Project>
+      <Name>Day29BitwiseAndCalculator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
